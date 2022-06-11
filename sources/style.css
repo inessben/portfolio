@@ -11,20 +11,6 @@ body
     left: 700px;
 }
 
-.click
-{
-    position: absolute;
-    width: 230px;
-    height: 28px;
-    color: #AE87C7;
-    background: #444343;
-    left: 1200px;
-    font-weight: 500;
-    font-size: 26px;
-    top: 615px;
-
-}
-
 .header
 {
     position: absolute;
@@ -33,8 +19,133 @@ body
     left: 100px;
     top: 50px;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 64px;
     line-height: 110px;
     letter-spacing: 0.08em;
+    color: #ADADAD;
+}
+
+
+.projects .title
+{
+    position: absolute;
+    color: #ADADAD;
+    width: 270px;
+    background: #333;
+    font-weight: 600;
+    font-size: 48px;
+    left: 1100px;
+    top: 900px;
+}
+
+.projects .first .image
+{
+    position: relative;
+    width: 400px;
+    left: 140px;
+    top: 400px;
+}
+
+.projects .first .image:hover
+{
+    opacity: 0.8;
+}
+
+
+.projects .first .description
+{
+    position: relative;
+    left: 70px;
+    top: 300px;
+    text-align: center;
+    color: #ADADAD;
+    font-weight: 600;
+    font-size: 32px;
+    width: 540px;
+    height: 100px;
+    background: #797777;
+}
+
+
+.projects .second .image
+{
+    position: relative;
+    width: 400px;
+    left: 1000px;
+}
+
+.projects .second .image:hover
+{
+    opacity: 0.8;
+}
+
+
+.projects .second .description
+{
+    position: relative;
+    left: 960px;
+    top: -170px;
+    text-align: center;
+    color: #ADADAD;
+    font-weight: 600;
+    font-size: 32px;
+    width: 540px;
+    height: 100px;
+    background: #797777;
+}
+
+.projects .third .image
+{
+    position: relative;
+    width: 500px;
+    left: 90px;
+}
+
+.projects .third .image:hover
+{
+    opacity: 0.8;
+}
+
+
+.projects .third .description
+{
+    position: relative;
+    left: 70px;
+    top: -90px;
+    color: #ADADAD;
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    width: 540px;
+    height: 100px;
+    background: #797777;
+}
+
+.other .title
+{
+    position: relative;
+    color: #ADADAD;
+    width: 390px;
+    background: #333;
+    font-weight: 600;
+    font-size: 48px;
+    left: 900px;
+}
+
+.other .image
+{
+    left: 0;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer .copyright
+{
     color: #ADADAD;
 }
