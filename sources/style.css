@@ -1,11 +1,40 @@
 body
 {
     background: #231F20;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-.sneakers
+.image
 {
     position: relative;
+    top: 0px;
     left: 700px;
-    top: 0;
+}
+
+.click
+{
+    position: absolute;
+    width: 230px;
+    height: 28px;
+    color: #AE87C7;
+    background: #444343;
+    left: 1200px;
+    font-weight: 500;
+    font-size: 26px;
+    top: 615px;
+
+}
+
+.header
+{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 100px;
+    top: 50px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 110px;
+    letter-spacing: 0.08em;
+    color: #ADADAD;
 }
