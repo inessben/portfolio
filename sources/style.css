@@ -5,6 +5,7 @@ body
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* logo and title */
 .image
 {
     position: relative;
@@ -26,6 +27,7 @@ body
     color: #ADADAD;
 }
 
+/* projects */
 .projects .title
 {
     position: absolute;
@@ -37,6 +39,20 @@ body
     left: 1100px;
     top: 900px;
 }
+
+.enlarge
+{
+    width:auto;
+    text-align:center;
+    padding:20px;
+}
+
+.enlarge .image
+{
+    max-width:100%;
+    height:auto;
+}
+
 
 .projects .first .image
 {
@@ -117,6 +133,7 @@ body
     height: 100px;
 }
 
+/* cv */
 .other .title
 {
     position: absolute;
@@ -133,6 +150,18 @@ body
     left: 0;
 }
 
+.other .one
+{
+    opacity: 0;
+}
+
+.other .two
+{
+    opacity: 0;
+}
+
+/* footer */
+
 .footer
 {
     display: flex;
@@ -146,7 +175,7 @@ body
     font-size: 24px;
 }
 
-/* responsive */
+                            /* responsive */
 
 /* desktop */
 
@@ -210,16 +239,6 @@ body
         top: 800px;
     }
 
-    .other .one
-    {
-        opacity: 0;
-    }
-
-    .other .two
-    {
-        opacity: 0;
-    }
-
     .footer .copyright
     {
         position: relative;
@@ -241,15 +260,6 @@ body
         left: 0;
         top: 900px;
         width: 1000px;
-    }
-    .other .one
-    {
-        opacity: 0;
-    }
-
-    .other .two
-    {
-        opacity: 0;
     }
 
     .footer .copyright
@@ -317,16 +327,6 @@ body
         left: 0;
         top: 900px;
         width: 840px;
-    }
-
-    .other .one
-    {
-        opacity: 0;
-    }
-
-    .other .two
-    {
-        opacity: 0;
     }
 
     .footer .copyright
