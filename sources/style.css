@@ -3,6 +3,7 @@ body
 {
     background: #231F20;
     font-family: Helvetica, Arial, sans-serif;
+
 }
 
 /* header */
@@ -32,11 +33,13 @@ body
     position: absolute;
     left: 100px;
     top: 500px;
+    width: 400px;
     font-weight: 500;
     font-size: 48px;
     color: #ADADAD;
 }
 
+/* MY SKILLS */
 .skills .title
 {
     position: absolute;
@@ -95,7 +98,7 @@ body
     margin: 10px;
 }
 
-
+/* MY CONTACTS */
 .contact .title
 {
     position: relative;
@@ -103,7 +106,7 @@ body
     height: 50px;
     background: #505050;
     left: 100px;
-    top: 600px;
+    top: 0px;
     font-weight: 700;
     font-size: 48px;
     color: #ADADAD;
@@ -113,7 +116,7 @@ body
 {
     position: relative;
     margin: 50px;
-    top: 700px;
+    top: 200px;
 }
 
 .contact .icon:hover
@@ -121,62 +124,102 @@ body
     opacity: 0.7;
 }
 
-
-
-
     /* responsive */
 
 /* desktop */
 
 @media (max-width: 1440px)
 {
-    .logo
+    .header .logo
     {
         position: relative;
         top: -30px;
-        left: 400px;
+        left: 450px;
+        width: 800px;
     }
 
 }
 
 @media (max-width: 1150px)
 {
-    .logo
+    .header .logo
     {
         position: relative;
-        top: -30px;
-        left: 200px;
+        top: 50px;
+        left: 400px;
+        width: 650px;
     }
+
+    .skills .title
+    {
+        top: 1000px;
+    }
+
+    .contact .icon
+    {
+        width: 460px;
+    }
+
 }
 
 /* tab */
-@media (max-width: 950px)
+@media (max-width: 930px)
 {
-    .logo
+    .header .logo
     {
         position: relative;
-        width: 450px;
-        top: 0px;
-        left: 350px;
+        width: 350px;
+        top: 190px;
+        left: 400px;
     }
 
+    .header .title
+    {
+        font-size: 66px;
+    }
+
+    .header .subtitle
+    {
+        font-size: 18px;
+    }
+
+   .skills .title
+   {
+        top: 800px;
+   }
 }
 
-@media (max-width: 790px)
+@media (max-width: 740px)
 {
-    .header
+
+    .header .logo
     {
-        left: 120px;
-        font-size: 60px;
+        left: 60px;
+        top: 330px;
+        width: 450px;
     }
 
-    .logo
+    .header .title
     {
-        position: relative;
-        width: 100px;
-        top: 60px;
-        left: 0px;
+        top: 30px;
+        opacity: 0.5;
     }
+
+    .header .subtitle
+    {
+        top: 300px;
+        opacity: 0.8;
+    }
+
+    .skills .title
+   {
+        top: 800px;
+   }
+
+   .skills .content
+   {
+        left: 280px;
+   }
 
 }
 
@@ -184,31 +227,74 @@ body
 
 @media (max-width: 580px)
 {
-    .logo
+    .header .logo
     {
-        position: relative;
-        width: 100px;
-        top: 60px;
-        left: 0px;
+        left: 30px;
+        top: 360px;
     }
+    
+    .header .subtitle
+    {
+        top: 280px;
+    }
+
+    .skills .rounds
+    {
+        left: 30px;
+    }
+    .skills .content
+   {
+        left: 200px;
+   }
+
 }
 
 @media (max-width: 500px)
 {
-    .logo
+    .header .logo
     {
-        position: relative;
-        width: 130px;
-        top: 60px;
-        left: 180px;
-        align-items: center;
+        left: -50px;
     }
 
-    .header
+
+    .header .title
     {
         left: 20px;
         top: 60px;
         font-size: 54px;
+        width: 100px;
     }
 
+    .header .subtitle
+    {
+        left: 20px;
+    }
+
+    .skills .round
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    .skills .round-purple
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    .skills .content
+   {
+        left: 200px;
+   }
+
+   .contact .icon
+    {
+        width: 310px;
+    }
+    
+    .skills .content
+    {
+        font-size: 24px;
+        left: 170px;
+    }
 }
