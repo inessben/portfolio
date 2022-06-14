@@ -5,333 +5,94 @@ body
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* logo and title */
-.image
+/* header */
+
+.header .logo
 {
     position: relative;
     top: 0px;
-    left: 700px;
+    left: 620px;
 }
 
-.header
+.header .title
 {
     position: absolute;
     width: 500px;
     height: 100px;
     left: 100px;
-    top: 50px;
+    top: 200px;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 96px;
     line-height: 110px;
-    letter-spacing: 0.08em;
     color: #ADADAD;
 }
 
-/* projects */
-.projects .title
+.header .subtitle
 {
     position: absolute;
-    color: #ADADAD;
-    width: 270px;
-    background: #333;
-    font-weight: 600;
+    left: 100px;
+    top: 500px;
+    font-weight: 500;
     font-size: 48px;
-    left: 1100px;
+    color: #ADADAD;
+}
+
+.contact .title
+{
+    position: absolute;
+    width: 232px;
+    height: 50px;
+    background: #505050;
+    left: 100px;
     top: 900px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #ADADAD;
 }
 
-.enlarge
-{
-    width:auto;
-    text-align:center;
-    padding:20px;
-}
-
-.enlarge .image
-{
-    max-width:100%;
-    height:auto;
-}
-
-
-.projects .first .image
+.icon
 {
     position: relative;
-    width: 400px;
-    left: 140px;
+    margin: 50px;
     top: 400px;
 }
 
-.projects .first .image:hover
-{
-    opacity: 0.8;
-}
 
 
-.projects .first .description
-{
-    position: relative;
-    left: 70px;
-    top: 450px;
-    text-align: center;
-    color: #ADADAD;
-    font-weight: 600;
-    font-size: 32px;
-    width: 540px;
-    height: 100px;
-}
-
-
-.projects .second .image
-{
-    position: relative;
-    width: 400px;
-    left: 1000px;
-}
-
-.projects .second .image:hover
-{
-    opacity: 0.8;
-}
-
-.projects .second .description
-{
-    position: relative;
-    left: 960px;
-    top: 20px;
-    text-align: center;
-    color: #ADADAD;
-    font-weight: 600;
-    font-size: 32px;
-    width: 540px;
-    height: 100px;
-}
-
-.projects .third .image
-{
-    position: relative;
-    width: 400px;
-    left: 90px;
-}
-
-.projects .third .image:hover
-{
-    opacity: 0.8;
-}
-
-
-.projects .third .description
-{
-    position: relative;
-    left: 30px;
-    top: 40px;
-    color: #ADADAD;
-    text-align: center;
-    font-weight: 600;
-    font-size: 32px;
-    width: 540px;
-    height: 100px;
-}
-
-/* cv */
-.other .title
-{
-    position: absolute;
-    color: #ADADAD;
-    width: 390px;
-    background: #333;
-    font-weight: 600;
-    font-size: 48px;
-    left: 900px;
-}
-
-.other .image
-{
-    left: 0;
-}
-
-.other .one
-{
-    opacity: 0;
-}
-
-.other .two
-{
-    opacity: 0;
-}
-
-/* footer */
-
-.footer
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer .copyright
-{
-    color: #ADADAD;
-    font-size: 24px;
-}
-
-                            /* responsive */
+    /* responsive */
 
 /* desktop */
 
 @media (max-width: 1440px)
 {
-    .image
+    .logo
     {
         position: relative;
         top: -30px;
         left: 400px;
     }
 
-    .projects .title
-    {
-        left: 100px;
-        top: 900px;
-    }
-
-    .projects .second .image
-    {
-        position: relative;
-        width: 300px;
-        left: 650px;
-        top: 450px;
-    }
-    
-    
-    .projects .second .description
-    {
-        position: relative;
-        left: 550px;
-        top: 450px;
-    }
-
-    .projects .third .image
-    {
-        position: relative;
-        width: 400px;
-        left: 90px;
-        top: 400px;
-
-    }
-
-    .projects .third .description
-    {
-        position: relative;
-        left: 20px;
-        top: 420px;
-    }
-
-    .other .title
-    {
-        left: 100px;
-        top: 3200px;
-    }
-
-    .other .image
-    {
-        left: 0;
-        width: 1100px;
-        top: 800px;
-    }
-
-    .footer .copyright
-    {
-        position: relative;
-        top: -100px;
-    }
 }
 
 @media (max-width: 1150px)
 {
-    .image
+    .logo
     {
         position: relative;
         top: -30px;
         left: 200px;
-    }
-
-    .other .image
-    {
-        left: 0;
-        top: 900px;
-        width: 1000px;
-    }
-
-    .footer .copyright
-    {
-        position: relative;
-        top: -1200px;
     }
 }
 
 /* tab */
 @media (max-width: 950px)
 {
-    .image
+    .logo
     {
         position: relative;
         width: 450px;
         top: 0px;
         left: 350px;
-    }
-
-    .projects .title
-    {
-        left: 100px;
-        top: 650px;
-    }
-
-    .projects .second .image
-    {
-        position: relative;
-        width: 450px;
-        left: 140px;
-        top: 600px;
-    }
-    
-    .projects .second .description
-    {
-        position: relative;
-        left: 70px;
-        top: 600px;
-    }
-
-    .projects .third .image
-    {
-        position: relative;
-        width: 450px;
-        left: 140px;
-        top: 700px;
-    }
-
-    .projects .third .description
-    {
-        position: relative;
-        left: 70px;
-        top: 720px;
-    }
-
-    .other .title
-    {
-        left: 100px;
-        top: 3280px;
-    }
-
-    .other .image
-    {
-        left: 0;
-        top: 900px;
-        width: 840px;
-    }
-
-    .footer .copyright
-    {
-        font-size: 20px;
     }
 
 }
@@ -344,7 +105,7 @@ body
         font-size: 60px;
     }
 
-    .image
+    .logo
     {
         position: relative;
         width: 100px;
@@ -352,130 +113,24 @@ body
         left: 0px;
     }
 
-    .projects .title
-    {
-        left: 100px;
-        top: 700px;
-    }
-
-    .projects .first .image
-    {
-        width: 400px;
-        left: 40px;
-        top: 800px;
-    }
-
-    .projects .first .description
-    {
-        left: -20px;
-        top: 850px;
-        font-size: 26px;
-    }
-
-    .projects .second .image
-    {
-        width: 450px;
-        left: 40px;
-        top: 900px;
-    }
-    
-    .projects .second .description
-    {
-        left: 10px;
-        top: 900px;
-        font-size: 26px;
-    }
-    
-    .projects .third .image
-    {
-        width: 450px;
-        left: 40px;
-        top: 1000px;
-    }
-
-    .projects .third .description
-    {
-        left: 10px;
-        top: 1050px;
-        font-size: 26px;
-    }
-
-    .other .title
-    {
-        z-index: 1;
-        left: 100px;
-        top: 3200px;
-    }
-
-    .other .image
-    {
-        opacity: 0;
-    }
-
-    .other .one
-    {
-        opacity: 1;
-        position: relative;
-        top: 518px;
-        width: 470px;
-    }
-
-    .other .two
-    {
-        opacity: 1;
-        position: relative;
-        top: 380px;
-        left: 50px;
-        width: 470px;
-    }
-
-    .footer .copyright
-    {
-        font-size: 18px;
-        width: 500px;
-        padding: 20px;
-        top: 300px;
-    }
 }
 
 /* phone */
 
 @media (max-width: 580px)
 {
-    .image
+    .logo
     {
         position: relative;
         width: 100px;
         top: 60px;
         left: 0px;
     }
-
-    .other .title
-    {
-        left: 50px;
-    }
-
-    .other .one
-    {
-        width: 400px;
-    }
-
-    .other .two
-    {
-        top: 400px;
-        width: 400px;
-    }
-
-    .footer .copyright
-    {
-        top: 350px;
-        font-size: 12px;
-    }
 }
 
 @media (max-width: 500px)
 {
-    .image
+    .logo
     {
         position: relative;
         width: 130px;
@@ -491,76 +146,4 @@ body
         font-size: 54px;
     }
 
-    .projects .title
-    {
-        left: 10px;
-        top: 700px;
-    }
-
-    .projects .first .image
-    {
-        width: 280px;
-        left: 40px;
-        top: 800px;
-    }
-
-    .projects .first .description
-    {
-        left: 10px;
-        width: 300px;
-        font-size: 22px;
-    }
-
-    .projects .second .image
-    {
-        width: 350px;
-        left: 5px;
-        top: 900px;
-    }
-    
-    .projects .second .description
-    {
-        left: -100px;
-        top: 900px;
-        font-size: 22px;
-    }
-    
-    .projects .third .image
-    {
-        width: 300px;
-        left: 40px;
-        top: 1000px;
-    }
-
-    .projects .third .description
-    {
-        left: -100px;
-        top: 1050px;
-        font-size: 22px;
-    }
-
-    .other .title
-    {
-        left: 10px;
-        font-size: 32px;
-        width: 260px;
-        top: 2700px;
-    }
-
-    .other .one
-    {
-        width: 300px;
-    }
-
-    .other .two
-    {
-        top: 400px;
-        left: 30px;
-        width: 300px;
-    }
-
-    .footer .copyright
-    {
-        font-size: 10px;
-    }
 }
