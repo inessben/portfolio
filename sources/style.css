@@ -48,18 +48,17 @@ body
     font-size: 48px;
     font-weight: 700;
     color: #ADADAD;
-
-} 
+}
 
 .skills .content
 {
     position: relative;
-    top: 490px;
-    left: 100px;
+    top: -255px;
+    left: 350px;
     width: 202px;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 75px;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 155px;
     color: #ADADAD;
     padding: 25px;
     margin: 20px;
@@ -67,28 +66,33 @@ body
 
 .skills .rounds
 {
-    display: inline-block;
-    flex-direction: column;
-    width: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    top: 600px;
+    left: 100px;
 
 }
 
 .skills .round
 {
-    background: #ADADAD;
+    position: relative;
+    background: #5b5b5b;
     border-radius: 50px;
-    width: 50px;
-    height: 50px;
-    margin: 20px;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
 }
 
 .skills .round-purple
 {
-    background: #AE87C7;
+    position: relative;
+    background: #b04fa2;
     border-radius: 50px;
-    width: 50px;
-    height: 50px;
-    margin: 20px;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
 }
 
 
@@ -111,6 +115,14 @@ body
     margin: 50px;
     top: 700px;
 }
+
+.contact .icon:hover
+{
+    opacity: 0.7;
+}
+
+
+
 
     /* responsive */
 
